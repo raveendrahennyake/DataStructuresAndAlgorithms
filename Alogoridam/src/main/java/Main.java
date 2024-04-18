@@ -2,7 +2,10 @@ import org.example.App;
 public class Main {
     public static void main(String[] args) {
 
-     int [] arr={88,99,22,44,66};
+
+
+
+        int [] arr={88,99,22,44,66};
 
      QuickSort (arr,0,arr.length-1);
 

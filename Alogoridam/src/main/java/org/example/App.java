@@ -2,7 +2,7 @@ package org.example;
 import static org.example.App.quickSort;
 
 import java.util.Arrays;
-
+//QuickSort Algoridams
 public class App {
     public static void main(String[] args) {
         int[] arr = {10, 6, 11, 8, 12, 2, 9, 15};
