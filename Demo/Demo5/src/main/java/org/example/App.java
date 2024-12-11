@@ -1,9 +1,21 @@
 package org.example;
-public class App 
+
+import static org.example.BubbleSortExample.bubbleSort;
+import static org.example.BubbleSortExample.printArray;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        int [] arr={64, 34, 25, 12, 22, 11, 90};
+        System.out.println("Unsorted Array:");
+        printArray(arr);
+
+        bubbleSort(arr);
+        System.out.println("Sorted Array");
+        printArray(arr);
+
+
     }
 }
 
