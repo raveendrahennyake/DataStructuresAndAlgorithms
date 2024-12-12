@@ -12,8 +12,6 @@ public class App
         obj1.push(10);
         obj1.push(20);
         obj1.push(30);
-
-
       obj1.peek();
       obj1.pop();
         obj1.display();
